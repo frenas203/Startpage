@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;  
+    background-color: rgb(141, 175, 238);   
+}
+
+.greeting{
+    text-align: center;
+    margin: 100px;
+    font-size: 35px;
+}
+.greeting h1{
+    border-color: white;
+    border-style: hidden;
+}
+.Entertainment{
+    border-style: hidden;
+    padding: 20px;
+    height: 500px;
+    border-radius: 10px;
+    background-size: cover;
+}
+.streaming-title {
+    margin-left: 38px;
+    font-size: 30px;
+    color: white;
+}
+
+.entertainment-Section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.entertainment-Section img{
+    width: 300px;
+    height: 200px;  
+    transition: width 200ms, height 200ms, transform 0.5s;
+    margin: 10px;
+}
+
+.entertainment-Section img:hover{
+    width: 350px;
+    height: 250px;
+    cursor: pointer;
+}
+
+.Shopping{
+    border: hidden;
+    border-radius: 10px;
+    background-size: cover;
+    height: 400px;
+    padding: 20px;
+}
+.shopping-title{
+    margin-left: 38px;
+    font-size: 30px;
+    color: white;
+}
+@media (min-width: 1080px){
+.entertainment-Section{
+    flex-wrap: wrap;
+}
+.shopping-Section{
+    flex-wrap: wrap;
+}
+
+.other-section{
+    flex-wrap: wrap;
+}
+
+}
+.shopping-Section{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    
+}
+
+.shopping-Section img{
+    width: 300px;
+    height: 150px;   
+    transition: width 200ms, height 200ms, transform 0.5s;
+    margin:10px;  
+}
+.shopping-Section img:hover{
+    width: 350px;
+    height: 180px; 
+}
+
+.Other{
+    border: hidden;
+    border-radius: 10px;
+    background-size: cover;
+    height: 400px;
+    padding: 20px;
+}
+
+.other-title{
+    margin-left: 38px;
+    font-size: 30px;
+    color: white;
+}
+
+.other-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.other-section img{
+    width: 300px;
+    height: 150px;   
+    transition: width 200ms, height 200ms, transform 0.5s;
+    margin:10px;
+}
+
+.other-section img:hover{
+    width: 350px;
+    height: 180px;
+}
+
